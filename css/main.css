@@ -106,23 +106,24 @@ footer {
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
+  width: 100%;
 }
 
-/*-----HEADER STYLES-----*/
-
-header {
-
-}
+/*----HEADER STYLES-----*/
 
 header .content-wrapper {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
+  height: auto;
+  margin: 0;
+  padding: 15px 0;
+  width: 60%;
 }
 
 header .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -130,29 +131,30 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   justify-content: space-around;
+  height: auto;
+  margin: 0;
+  width: 60%; 
 }
 
 header nav ul {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-header nav ul li {
-
-}
-
-header nav ul li a {
-
+  justify-content: space-around;
+  padding: 0;
+  width: 45%; 
+  list-style: none;
 }
 
 /*-----MOBILE STYLES - HOMEPAGE-----*/
 
 .hero-area {
   display: flex;
-  align-items: center;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+main .content-wrapper {
+  margin: 0;
+  padding: 0 40px 0 22px;
 }
 
 aside {
@@ -162,7 +164,7 @@ aside {
   justify-content: center;
 }
 
-main .content-wrapper {
+aside .content-wrapper {
 
 }
 
@@ -181,18 +183,39 @@ main .content-wrapper {
   justify-content: center;
 }
 
-.features-items {
+.features p {
+
+}
+
+.features .content-wrapper {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
 }
 
+.features .features-items {
+  width: 55%;
+  margin: 0;
+}
+
+.teepee-icon, 
+.sleep-icon, 
+.food-icon, 
+.feet-icon, 
+.smiley-icon {
+
+}
+
+.features .features-item-description {
+
+}
+
 .reviews {
   display: flex;
-  align-items: center;
   flex-flow: row wrap;
   justify-content: center;
+  width: 90%;
 }
 
 /*-----MOBILE STYLES - ABOUT-----*/
@@ -204,27 +227,11 @@ main .content-wrapper {
   justify-content: center;
 }
 
-.mission-content {
-
-}
-
-.map {
-
-}
-
 .contact-info {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
-}
-
-.general-info {
-
-}
-
-.chat {
-
 }
 
 /*-----MOBILE STYLES - FAQ-----*/
@@ -236,59 +243,47 @@ main .content-wrapper {
   justify-content: center;
 }
 
-faq .content-wrapper {
+.faq .content-wrapper {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.directions {
+/*----FOOTER STYLES-----*/
 
+footer .content-wrapper {
+  width: 55%;
 }
 
-.team-type {
-
+footer p {
+  margin: 0;
 }
 
-.team-size {
-
-}
-
-.wifi {
-
-}
-
-/*-----FOOTER-----*/
-
-footer {
-
-}
-
-footer .footer-content {
+footer .content {
 
 }
 
 footer .contact {
-
+  text-align: center;
 }
 
 footer .social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 footer .social-icons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  
+  justify-content: space-around;
 }
 
-footer .copyright {
-
+footer .social-icons p {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
 
 /* ==========================================================================
    Helper classes
