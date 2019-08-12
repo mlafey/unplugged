@@ -98,6 +98,198 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*----BASE HEADER - FOOTER STYLES-----*/
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/*-----HEADER STYLES-----*/
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header .header-divider {
+
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+/*-----MOBILE STYLES - HOMEPAGE-----*/
+
+.hero-area {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+main .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.features-items {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/*-----MOBILE STYLES - ABOUT-----*/
+
+.mission {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.general-info {
+
+}
+
+.chat {
+
+}
+
+/*-----MOBILE STYLES - FAQ-----*/
+
+.faq {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+faq .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.directions {
+
+}
+
+.team-type {
+
+}
+
+.team-size {
+
+}
+
+.wifi {
+
+}
+
+/*-----FOOTER-----*/
+
+footer {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+footer .copyright {
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
