@@ -97,6 +97,60 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*-----GENERAL STYLES-----*/
+html {
+  font-size: 16px;
+}
+
+body {
+  color: #e2e2ed; 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul {
+  font-weight: 700px;
+  list-style: none;
+}
+
+a {
+  color: #e2e2ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrap {
+  width: 90%;
+  margin: 50px 0;
+}
 
 /*----BASE HEADER - FOOTER STYLES-----*/
 
@@ -140,7 +194,6 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  list-style: none;
   width: 100%; 
   
 }
@@ -160,22 +213,14 @@ aside {
   justify-content: center;
 }
 
-aside .content-wrapper {
-
-}
-
-.form-description {
-
-}
-
-.form {
-
-}
-
 .features {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features article {
@@ -190,17 +235,8 @@ aside .content-wrapper {
   justify-content: center;
 }
 
-.features h2 {
-  margin-bottom: 60px;
-}
-
 .features p {
   margin: 0;
-}
-
-
-.features .features-item-description {
-
 }
 
 .reviews {
