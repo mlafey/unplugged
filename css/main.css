@@ -403,7 +403,6 @@ header .content-wrapper {
 
 header {
   width: 100%;
-  justify-content: space-between;
 }
 
 header nav {
@@ -483,7 +482,7 @@ footer .copyright {
 }
 
 .contact-info .content-wrapper h2 { 
-  width: 80%
+  width: 80%;
 }
 
 .contact-info {
@@ -499,15 +498,64 @@ footer .copyright {
 }
 
 .faq-content {
-  flex-basis: 40%
+  flex-basis: 50%;
 }
 
 .faq h2 {
   width: 100%;
 }
+
 @media only screen and (min-width: 1200px) {
 /*---DESKTOP STYLES---*/
 
+.content-wrapper {
+  max-width: 960px;
+}
+
+.hero-area h1 {
+  width: 60%;
+}
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form 
+aside .content-wrapper .form-description {
+  width: 30%;
+}
+
+.features h2 {
+  width: 70%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+.reviews article div {
+  width: 43%;   
+}
+
+/*-----ABOUT-----*/
+
+.mission-content h2{
+  width: 100%;
+}
+
+.contact-info .content-wrapper h2 { 
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*-----FAQ-----*/
+
+.faq h2 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 35%;
 }
 
 @media print,
