@@ -138,11 +138,11 @@ p {
 }
 
 img {
-
-}–
+  width: 100%;
+}
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -158,8 +158,9 @@ address {
 
 header,
 footer {
-  display: flex;
   align-items: center;
+  background-color: #202322;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -168,7 +169,6 @@ footer {
 
 header {
   padding: 15px 0;
-  background: #202322;
 }
 
 header .content-wrapper {
@@ -177,6 +177,14 @@ header .content-wrapper {
   flex-flow: row wrap;
   justify-content: center;
   margin: 0;
+}
+
+figure {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 60%;
 }
 
 .header-divider {
@@ -201,15 +209,18 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%; 
-  
 }
 
 /*-----MOBILE STYLES - HOMEPAGE-----*/
 
 .hero-area {
+  background: url('../img/hero.jpg') center no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -239,7 +250,7 @@ input [type=button] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
-  background-color: #e2e2ed;
+  background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
@@ -253,6 +264,9 @@ input [type=button] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background: url('../img/feature.jpg') center no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -272,7 +286,7 @@ input [type=button] {
 }
 
 .features p {
-  text-align: cener;
+  text-align: center;
   margin: 0;
 }
 
@@ -587,6 +601,10 @@ footer .copyright {
 
 .content-wrapper {
   max-width: 960px;
+}
+
+figure {
+  width: 23%;
 }
 
 .hero-area h1 {
