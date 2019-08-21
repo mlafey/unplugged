@@ -274,8 +274,13 @@ input [type=button] {
 }
 
 .features article {
-  width: 55%;
-  margin: 30px 0;
+
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .features .features-items {
