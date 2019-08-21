@@ -400,10 +400,14 @@ footer .social {
 footer .social-icons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -554,13 +558,21 @@ aside .content-wrapper .form {
   width: 50%;
 }
 
-.reviews article {
-  display: flex;
-  justify-content: space-between;
+.features i {
+  margin-bottom: 30px;
 }
 
-.reviews article div {
-  width: 49%;
+.reviews h2 {
+  width: 90%;
+}
+
+.reviews article div, .reviews figure {
+width: 49%;
+}
+
+.reviews h3 {
+  width:75%;
+  margin: 0;
 }
 
 footer .content-wrapper {
@@ -576,6 +588,10 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 0;
+}
+
+footer .social-icons p {
+  margin: 20px;
 }
 
 footer .copyright {
