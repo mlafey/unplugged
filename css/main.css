@@ -182,9 +182,6 @@ header .content-wrapper {
   margin: 0;
 }
 
-header img {
-  width: 60%;
-}
 
 header figure{
   align-items: center;
@@ -526,6 +523,10 @@ header .content-wrapper {
 
 header {
   width: 100%;
+}
+
+header img {
+  width: 50%;
 }
 
 header nav {
