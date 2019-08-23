@@ -721,10 +721,6 @@ aside .content-wrapper .form-description {
   width: 100%;
 }
 
-.faq-content {
-  flex-basis: 35%;
-}
-
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
